@@ -1,0 +1,38 @@
+{
+  "name": "friendsofcrawler/typo3-crawler-widget",
+  "type": "typo3-cms-extension",
+  "description": "Widgets for crawler extension",
+  "homepage": "https://github.com/tomasnorre/typo3-crawler-widget",
+  "support": {
+    "issues": "https://github.com/tomasnorre/typo3-crawler-widget/issues"
+  },
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Philipp Kuhlmay",
+      "email": "mail@philippkuhlmay.de",
+      "homepage": "https://www.philippkuhlmay.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "typo3/cms-core": "^10.4",
+    "typo3/cms-dashboard": "^10.4",
+    "aoepeople/crawler": "^9.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "FriendsOfCrawler\\Crawler\\": "Classes/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
