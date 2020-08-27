@@ -4,14 +4,14 @@ services:
     autoconfigure: true
     public: false
 
-  FriendsOfCrawler\Crawler\:
+  FriendsOfCrawler\CrawlerWidgets\:
     resource: '../Classes/*'
 
   dashboard.widget.typo3_crawler_widget.queuesize:
-    class: 'FriendsOfCrawler\Crawler\Widgets\QueueSizeWidget'
+    class: 'FriendsOfCrawler\CrawlerWidgets\Widgets\QueueSizeWidget'
     arguments:
       $view: '@dashboard.views.widget'
-      $dataProvider: '@FriendsOfCrawler\Crawler\Widgets\Provider\QueueSizeDataProvider'
+      $dataProvider: '@FriendsOfCrawler\CrawlerWidgets\Widgets\Provider\QueueSizeDataProvider'
       $options:
         title: 'LLL:EXT:typo3_crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.title'
         icon: 'apps-toolbar-menu-search'

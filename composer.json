@@ -10,7 +10,7 @@
   "authors": [
     {
       "name": "Philipp Kuhlmay",
-      "email": "mail@philippkuhlmay.de",
+      "email": "mail@treupo.de",
       "homepage": "https://www.philippkuhlmay.de",
       "role": "Developer"
     }
@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FriendsOfCrawler\\Crawler\\": "Classes/"
+      "FriendsOfCrawler\\CrawlerWidgets\\": "Classes/"
     }
   },
   "config": {

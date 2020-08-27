@@ -18,23 +18,23 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'TYPO3 Crawler Widgets',
     'description' => 'Widgets for crawler extension',
-    'category' => 'templates',
+    'category' => 'be',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-10.4.99',
-            'dashboard' => '10.4.0-10.4.99',
+            'typo3' => '^10.4',
+            'dashboard' => '^10.4',
             'crawler' => '^9.0'
         ],
     ],
     'state' => 'alpha',
     'clearCacheOnLoad' => 1,
     'author' => 'Philipp Kuhlmay',
-    'author_email' => 'mail@philippkuhlmay.de',
+    'author_email' => 'mail@treupo.de',
     'author_company' => 'FriendsOfCrawler',
     'version' => '1.0.0',
     'autoload' => [
         'psr-4' => [
-            'FriendsOfCrawler\Crawler\\' => 'Classes'
+            'FriendsOfCrawler\CrawlerWidgets\\' => 'Classes'
         ]
     ],
 ];

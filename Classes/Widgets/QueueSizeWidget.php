@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FriendsOfCrawler\Crawler\Widgets;
+namespace FriendsOfCrawler\CrawlerWidgets\Widgets;
 
 /*
  * (c) 2020 FriendsOfCrawler <mail@treupo.de>

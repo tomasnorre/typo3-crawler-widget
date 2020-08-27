@@ -19,9 +19,9 @@ defined('TYPO3_MODE') or die();
 TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup('
     module.tx_dashboard {
         view {
-            templateRootPaths.1596545239 = EXT:typo3_crawler_widget/Resources/Private/Templates/Widget/
-            partialRootPaths.1596545239 = EXT:typo3_crawler_widget/Resources/Private/Partials/Widget/
-            layoutRootPaths.1596545239 = EXT:typo3_crawler_widget/Resources/Private/Layouts/Widget/
+            templateRootPaths.1582293960 = EXT:typo3_crawler_widget/Resources/Private/Templates/Widget/
+            partialRootPaths.1582293960 = EXT:typo3_crawler_widget/Resources/Private/Partials/Widget/
+            layoutRootPaths.1582293960 = EXT:typo3_crawler_widget/Resources/Private/Layouts/Widget/
         }
     }'
 );
