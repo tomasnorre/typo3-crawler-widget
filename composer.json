@@ -6,7 +6,7 @@
   "support": {
     "issues": "https://github.com/tomasnorre/typo3-crawler-widget/issues"
   },
-  "license": "GPL-3.0",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "Philipp Kuhlmay",
@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FriendsOfCrawler\\CrawlerWidgets\\": "Classes/"
+      "FriendsOfCrawler\\CrawlerWidget\\": "Classes/"
     }
   },
   "config": {

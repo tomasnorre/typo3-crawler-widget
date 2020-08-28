@@ -4,7 +4,7 @@
 Widgets
 =======
 
-.. versionadded:: 1.0.0
+.. versionadded:: 0.0.1
 
 .. contents:: Included widgets
    :depth: 1

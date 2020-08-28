@@ -31,10 +31,10 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Philipp Kuhlmay',
     'author_email' => 'mail@treupo.de',
     'author_company' => 'FriendsOfCrawler',
-    'version' => '1.0.0',
+    'version' => '0.0.1',
     'autoload' => [
         'psr-4' => [
-            'FriendsOfCrawler\CrawlerWidgets\\' => 'Classes'
+            'FriendsOfCrawler\CrawlerWidget\\' => 'Classes'
         ]
     ],
 ];
