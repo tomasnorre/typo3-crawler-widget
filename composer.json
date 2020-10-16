@@ -33,5 +33,10 @@
   "config": {
     "sort-packages": true
   },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "crawler_widget"
+    }
+  },
   "prefer-stable": true
 }
