@@ -4,8 +4,6 @@
 Widgets
 =======
 
-.. versionadded:: 0.0.1
-
 .. contents:: Included widgets
    :depth: 1
    :local:
