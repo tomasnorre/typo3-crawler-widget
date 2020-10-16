@@ -8,19 +8,19 @@ services:
     resource: '../Classes/*'
 
   dashboard.widget.typo3_crawler_widget.queuesize:
-    class: 'FriendsOfCrawler\CrawlerWidget\Widgets\QueueSizeWidget'
+    class: 'TYPO3\CMS\Dashboard\Widgets\NumberWithIconWidget'
     arguments:
       $view: '@dashboard.views.widget'
       $dataProvider: '@FriendsOfCrawler\CrawlerWidget\Widgets\Provider\QueueSizeDataProvider'
       $options:
-        title: 'LLL:EXT:typo3_crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.title'
+        title: 'LLL:EXT:crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.title'
         icon: 'apps-toolbar-menu-search'
     tags:
       - name: dashboard.widget
         identifier: 'crawler.queuesize'
         groupNames: 'crawler'
-        title: 'LLL:EXT:typo3_crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.widget.title'
-        description: 'LLL:EXT:typo3_crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.description'
+        title: 'LLL:EXT:crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.widget.title'
+        description: 'LLL:EXT:crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.description'
         iconIdentifier: 'content-widget-number'
         height: 'small'
         width: 'small'

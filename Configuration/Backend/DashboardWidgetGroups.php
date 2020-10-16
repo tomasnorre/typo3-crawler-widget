@@ -19,6 +19,6 @@ declare(strict_types=1);
 
 return [
     'crawler' => [
-        'title' => 'LLL:EXT:typo3_crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.group.title',
+        'title' => 'LLL:EXT:crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.group.title',
     ],
 ];
