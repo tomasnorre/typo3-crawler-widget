@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="EXT:typo3-crawler-widget/Resources/Private/Language/locallang.xlf" date="2020-08-27T08:00:00Z"
-          product-name="typo3_crawler_widget">
+    <file source-language="en" datatype="plaintext" original="EXT:crawler_widget/Resources/Private/Language/locallang.xlf" date="2020-08-27T08:00:00Z"
+          product-name="crawler_widget">
         <header/>
         <body>
             <trans-unit id="dashboard.widget.group.title" resname="dashboard.widget.group.title">
