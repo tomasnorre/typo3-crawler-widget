@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-namespace FriendsOfCrawler\CrawlerWidget\Widgets\Provider;
-
 /*
  * (c) 2020 FriendsOfCrawler <mail@treupo.de>
  *
@@ -18,6 +16,8 @@ namespace FriendsOfCrawler\CrawlerWidget\Widgets\Provider;
  *
  * The TYPO3 project - inspiring people to share!
  */
+
+namespace FriendsOfCrawler\CrawlerWidget\Widgets\Provider;
 
 use AOE\Crawler\Domain\Repository\QueueRepository;
 use TYPO3\CMS\Dashboard\Widgets\NumberWithIconDataProviderInterface;
