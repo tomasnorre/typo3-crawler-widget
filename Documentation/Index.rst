@@ -1,7 +1,4 @@
-.. include:: Includes.txt
-
-.. Every manual should have a start label for cross-referencing to
-.. start page. Do not remove this!
+.. include:: /Includes.txt
 
 .. _start:
 
@@ -9,22 +6,41 @@
 Crawler Widgets
 ===============
 
-:Classification:  typo3-crawler-widgets
-:Version:         |release|
-:Language:        en
-:Description:     Widgets for the EXT:crawler
-:Keywords:        widgets, crawler
-:Copyright:       2020
-:Author:          Philipp Kuhlmay
-:Email:           mail@treupo.de
-:License:         This document is published under the Open Content License available from
-                  https://www.opencontent.org/openpub/
-:Rendered:        |today|
+:Version:
+   |release|
 
-The content of this document is related to TYPO3, a GNU/GPL CMS/Framework available from https://typo3.org/.
+:Language:
+   en
+
+:Authors:
+   Tomas Norre Mikkelsen, Philipp Kuhlmay, Chris Müller
+
+:License:
+   This extension documentation is published under the
+   `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons)
+   license
+
+Dashboard widgets for the extension "crawler"
+
+**TYPO3**
+
+The content of this document is related to TYPO3 CMS,
+a GNU/GPL CMS/Framework available from `typo3.org <https://typo3.org/>`_ .
+
+**Extension Manual**
+
+This documentation is for the TYPO3 extension crawler_widget.
+
+If you find an error or something is missing, please:
+`Report a Problem <https://github.com/tomasnorre/typo3-crawler-widget/issues/new>`__
+
+**For Contributors**
+
+You are welcome to help improve this guide.
+Just click on "Edit me on GitHub" on the top right to submit your change request.
 
 .. toctree::
-   :hidden:
+   :maxdepth: 3
 
    Widgets/Index
-
+   Sitemap
