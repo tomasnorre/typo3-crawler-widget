@@ -1,4 +1,6 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.txt
+
+.. _widgets:
 
 =======
 Widgets
@@ -10,14 +12,19 @@ Widgets
 
 .. hint::
 
-    To add a widget to your dashboard you need to click on the plus button in the dashboard module and select the tab 'Crawler'. There you will find all our widgets.
+   To add a widget to your dashboard you need to click on the plus button in the
+   dashboard module and select the tab :guilabel:`Crawler`. There you will find
+   all our widgets.
 
 .. note::
 
-   Please note, that the permissions for editors have to be granted to be able to use these widgets.
+   Please note, that the :ref:`permissions for editors
+   <t3dashboard:permission-handling-of-widgets>` have to be granted to be able
+   to use these widgets.
+
 
 Displaying the queue size
--------------------------
+=========================
 
 This widgets displays the size of the queue.
 
