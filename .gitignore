@@ -1,1 +1,5 @@
+.Build
+.idea
+.php_cs.cache
+composer.lock
 Documentation-GENERATED-temp
