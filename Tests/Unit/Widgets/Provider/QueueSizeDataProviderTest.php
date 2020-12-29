@@ -17,7 +17,7 @@ declare(strict_types=1);
  * The TYPO3 project - inspiring people to share!
  */
 
-namespace FriendsOfCrawler\CrawlerWidget\Unit\Tests\Widgets\Provider\QueueSizeDataProvider;;
+namespace FriendsOfCrawler\CrawlerWidget\Unit\Tests\Widgets\Provider\QueueSizeDataProvider;
 
 use AOE\Crawler\Domain\Repository\QueueRepository;
 use FriendsOfCrawler\CrawlerWidget\Widgets\Provider\QueueSizeDataProvider;
@@ -32,8 +32,8 @@ class QueueSizeDataProviderTest extends TestCase
     {
         $queueRepositoryStub = $this->createStub(QueueRepository::class);
         $queueRepositoryStub
-            ->method('countUnprocessedItems')
-            ->willReturn(42);
+            ->method('getUnprocessedItems')
+            ->willReturn(array_fill(0, 42, 1));
 
         $subject = new QueueSizeDataProvider($queueRepositoryStub);
 

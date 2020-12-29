@@ -36,6 +36,6 @@ class QueueSizeDataProvider implements NumberWithIconDataProviderInterface
 
     public function getNumber(): int
     {
-        return $this->queueRepository->countUnprocessedItems();
+        return count($this->queueRepository->getUnprocessedItems());
     }
 }
