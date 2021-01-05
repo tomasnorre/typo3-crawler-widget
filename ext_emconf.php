@@ -21,8 +21,8 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'be',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-10.4.99',
-            'dashboard' => '10.4.0-10.4.99',
+            'typo3' => '10.4.0-11.5.99',
+            'dashboard' => '10.4.0-11.5.99',
             'crawler' => '9.0.0-9.9.99'
         ],
     ],
