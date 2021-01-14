@@ -1,6 +1,6 @@
 # Changelog TYPO3 Crawler widget
 
-## Unreleased
+## Version 1.0.0
 
-### Added 
+### Added
 * Dashboard widget, which shows the size of the queue

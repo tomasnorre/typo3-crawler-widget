@@ -26,12 +26,12 @@ $EM_CONF[$_EXTKEY] = [
             'crawler' => '9.0.0-9.9.99'
         ],
     ],
-    'state' => 'alpha',
+    'state' => 'stable',
     'clearCacheOnLoad' => 1,
-    'author' => 'Philipp Kuhlmay',
+    'author' => 'Tomas Norre Mikkelsen, Philipp Kuhlmay, Chris Müller',
     'author_email' => 'mail@treupo.de',
     'author_company' => 'FriendsOfCrawler',
-    'version' => '0.0.1',
+    'version' => '1.0.0',
     'autoload' => [
         'psr-4' => [
             'FriendsOfCrawler\CrawlerWidget\\' => 'Classes'
