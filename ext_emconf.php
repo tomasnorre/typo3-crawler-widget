@@ -26,7 +26,7 @@ $EM_CONF[$_EXTKEY] = [
             'crawler' => '9.0.0-9.9.99'
         ],
     ],
-    'state' => 'beta',
+    'state' => 'stable',
     'clearCacheOnLoad' => 1,
     'author' => 'Philipp Kuhlmay',
     'author_email' => 'mail@treupo.de',
