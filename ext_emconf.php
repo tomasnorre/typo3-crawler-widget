@@ -28,7 +28,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'state' => 'stable',
     'clearCacheOnLoad' => 1,
-    'author' => 'Philipp Kuhlmay',
+    'author' => 'Tomas Norre Mikkelsen, Philipp Kuhlmay, Chris Müller',
     'author_email' => 'mail@treupo.de',
     'author_company' => 'FriendsOfCrawler',
     'version' => '1.0.0',
