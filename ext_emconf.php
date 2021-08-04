@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = [
         'depends' => [
             'typo3' => '10.4.0-11.5.99',
             'dashboard' => '10.4.0-11.5.99',
-            'crawler' => '9.0.0-9.9.99'
+            'crawler' => '9.0.0-10.9.99'
         ],
     ],
     'state' => 'stable',
@@ -31,7 +31,7 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Tomas Norre Mikkelsen, Philipp Kuhlmay, Chris Müller',
     'author_email' => 'mail@treupo.de',
     'author_company' => 'FriendsOfCrawler',
-    'version' => '1.0.0',
+    'version' => '1.1.0',
     'autoload' => [
         'psr-4' => [
             'FriendsOfCrawler\CrawlerWidget\\' => 'Classes'
