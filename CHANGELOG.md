@@ -1,5 +1,10 @@
 # Changelog TYPO3 Crawler widget
 
+## Version 1.1.1
+
+* Changed dependency to match current EXT:crawler
+  * This extension now depends on tomasnorre/crawler instead of aoepeople/crawler
+
 ## Version 1.1.0
 
 ### Added
