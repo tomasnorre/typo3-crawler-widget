@@ -1,5 +1,11 @@
 # Changelog TYPO3 Crawler widget
 
+## Version 1.2.0
+
+### Added
+
+* Possibility to refresh the widget in TYPO3 v11.5
+
 ## Version 1.1.1
 
 * Changed dependency to match current EXT:crawler

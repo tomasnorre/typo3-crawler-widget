@@ -15,6 +15,7 @@ services:
       $options:
         title: 'LLL:EXT:crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.title'
         icon: 'apps-toolbar-menu-search'
+        refreshAvailable: true
     tags:
       - name: dashboard.widget
         identifier: 'crawler.queuesize'
