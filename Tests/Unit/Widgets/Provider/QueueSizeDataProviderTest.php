@@ -32,8 +32,8 @@ class QueueSizeDataProviderTest extends TestCase
     {
         $queueRepositoryStub = $this->createStub(QueueRepository::class);
         $queueRepositoryStub
-            ->method('countUnprocessedItems')
-            ->willReturn(42);
+            ->method('getUnprocessedItems')
+            ->willReturn(array_fill(0, 42, 1));
 
         $subject = new QueueSizeDataProvider($queueRepositoryStub);
 
