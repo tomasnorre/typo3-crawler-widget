@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = [
         'depends' => [
             'typo3' => '10.4.0-11.5.99',
             'dashboard' => '10.4.0-11.5.99',
-            'crawler' => '9.0.0-10.9.99'
+            'crawler' => '9.1.5-11.99.99'
         ],
     ],
     'state' => 'stable',

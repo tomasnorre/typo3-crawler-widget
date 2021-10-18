@@ -14,6 +14,7 @@ services:
       $dataProvider: '@FriendsOfCrawler\CrawlerWidget\Widgets\Provider\QueueSizeDataProvider'
       $options:
         title: 'LLL:EXT:crawler_widget/Resources/Private/Language/locallang.xlf:dashboard.widget.queuesize.title'
+        subtitle: ''
         icon: 'apps-toolbar-menu-search'
         refreshAvailable: true
     tags:
