@@ -32,11 +32,11 @@ class QueueSizeDataProviderTest extends TestCase
     {
         $queueRepositoryStub = $this->createStub(QueueRepository::class);
         $queueRepositoryStub
-            ->method('countUnprocessedItems')
-            ->willReturn(42);
+            ->method('getUnprocessedItems')
+            ->willReturn([[1], [2], [3], [4]]);
 
         $subject = new QueueSizeDataProvider($queueRepositoryStub);
 
-        self::assertSame(42, $subject->getNumber());
+        self::assertSame(4, $subject->getNumber());
     }
 }
